@@ -1,0 +1,345 @@
+
+#con1 {
+    perspective: 2000px;
+    z-index: 100;
+    position: absolute;
+    top: 80px;
+    left: 350px;
+    width: 1220px;
+    height: 600px;
+    background: linear-gradient(#111425, #3751e0);
+    border: solid;
+    border-width: 5px;
+    border-color: #3f2206;
+}
+#canvas{
+    z-index: 110;
+    position :absolute;
+    width: 1220px;
+    height: 600px;
+    
+}
+.moon
+{
+    position:absolute;
+    top: 50px;
+    left:300px;
+    width:50px;
+    height:50px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 1000;
+    box-shadow:  0 0 50px  #f6f15f, 0 0 100px #250394, 0 0 150px #fff, 0 0 200px #fff, 0 0 250px #fff, 0 0 300px #fff;
+    z-index: 2;
+}
+#bg {
+    z-index: -10;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width : 1920px;
+    height : 1080px;
+    background-color: black;
+    opacity: 0.9;
+    display: block;
+}
+#desk {
+    z-index: 10;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width : 1920px;
+    height : 1080px;
+    clip-path: polygon(0px 1080px, 200px 770px, 1720px 770px, 1920px 1080px);
+}
+.paper {
+    z-index: 11;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width : 1920px;
+    height : 1080px;
+    background-color: rgb(243, 237, 226);
+    clip-path: polygon(50px 1080px, 250px 795px, 1660px 795px, 1860px 1080px);
+}
+.con {
+    perspective: 2000px;
+    perspective-origin: 960px -352px;
+    z-index: 11;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width : 1920px;
+    height : 1080px;
+}
+#circle1 {
+    z-index: 100;
+    display: block;
+    position: absolute;
+    top: 720px;
+    left: 230px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+#circle2 {
+    z-index: 100;
+    display: block;
+    position: absolute;
+    top: 720px;
+    left: 1590px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+#pol1 {
+    z-index: 100;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    clip-path: polygon(20px 1080px, 242px 737px, 326px 790px, 165px 1080px);
+}
+#pol2 {
+    z-index: 100;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    clip-path: polygon(1900px 1080px, 1678px 737px, 1594px 790px, 1755px 1080px);
+}
+#letter1 {
+    perspective-origin: 960px -352px;
+    z-index: 20;
+    display: block;
+    position: absolute;
+    top: 820px;
+    left: 490px;
+    width: 100px;
+    height: 80px;
+    transform: rotateX(70deg);
+    transform-origin: 100% 100%;
+    transition: all 0.7s ease-in-out;
+}
+#letter1:hover {
+    scale: 1.1;
+}
+#letter2 {
+    perspective-origin: 960px -352px;
+    z-index: 20;
+    display: block;
+    position: absolute;
+    top: 820px;
+    left: 700px;
+    width: 100px;
+    height: 80px;
+    transform: rotateX(70deg);
+    transform-origin: 100% 100%;
+    transition: all 0.7s ease-in-out;
+}
+#letter2:hover {
+    scale: 1.1;
+}
+#letter3 {
+    perspective-origin: 960px -352px;
+    z-index: 20;
+    display: block;
+    position: absolute;
+    top: 820px;
+    left: 910px;
+    width: 100px;
+    height: 80px;
+    transform: rotateX(70deg);
+    transform-origin: 100% 100%;
+    transition: all 0.7s ease-in-out;
+}
+#letter3:hover {
+    scale: 1.1;
+}
+#letter4 {
+    perspective-origin: 960px -352px;
+    z-index: 20;
+    display: block;
+    position: absolute;
+    top: 820px;
+    left: 1120px;
+    width: 100px;
+    height: 80px;
+    transform: rotateX(70deg);
+    transform-origin: 100% 100%;
+    transition: all 0.7s ease-in-out;
+}
+#letter4:hover {
+    scale: 1.1;
+}
+#letter5 {
+    perspective-origin: 960px -352px;
+    z-index: 20;
+    display: block;
+    position: absolute;
+    top: 820px;
+    left: 1330px;
+    width: 100px;
+    height: 80px;
+    transform: rotateX(70deg);
+    transform-origin: 100% 100%;
+    transition: all 0.7s ease-in-out;
+}
+#letter5:hover {
+    scale: 1.1;
+}
+#letter6 {
+    perspective-origin: 960px -352px;
+    z-index: 20;
+    display: block;
+    position: absolute;
+    top: 950px;
+    left: 385px;
+    width: 100px;
+    height: 80px;
+    transform: rotateX(70deg);
+    transform-origin: 100% 100%;
+    transition: all 0.7s ease-in-out;
+}
+#letter6:hover {
+    scale: 1.1;
+}
+#letter7 {
+    perspective-origin: 960px -352px;
+    z-index: 20;
+    display: block;
+    position: absolute;
+    top: 950px;
+    left: 595px;
+    width: 100px;
+    height: 80px;
+    transform: rotateX(70deg);
+    transform-origin: 100% 100%;
+    transition: all 0.7s ease-in-out;
+}
+#letter7:hover {
+    scale: 1.1;
+}
+#letter8 {
+    perspective-origin: 960px -352px;
+    z-index: 20;
+    display: block;
+    position: absolute;
+    top: 950px;
+    left: 805px;
+    width: 100px;
+    height: 80px;
+    transform: rotateX(70deg);
+    transform-origin: 100% 100%;
+    transition: all 0.7s ease-in-out;
+}
+#letter8:hover {
+    scale: 1.1;
+}
+#letter9 {
+    perspective-origin: 960px -352px;
+    z-index: 20;
+    display: block;
+    position: absolute;
+    top: 950px;
+    left: 1015px;
+    width: 100px;
+    height: 80px;
+    transform: rotateX(70deg);
+    transform-origin: 100% 100%;
+    transition: all 0.7s ease-in-out;
+}
+#letter9:hover {
+    scale: 1.1;
+}
+#letter10 {
+    perspective-origin: 960px -352px;
+    z-index: 20;
+    display: block;
+    position: absolute;
+    top: 950px;
+    left: 1225px;
+    width: 100px;
+    height: 80px;
+    transform: rotateX(70deg);
+    transform-origin: 100% 100%;
+    transition: all 0.7s ease-in-out;
+}
+#letter10:hover {
+    scale: 1.1;
+}
+#letter11 {
+    perspective-origin: 960px -352px;
+    z-index: 20;
+    display: block;
+    position: absolute;
+    top: 950px;
+    left: 1435px;
+    width: 100px;
+    height: 80px;
+    transform: rotateX(70deg);
+    transform-origin: 100% 100%;
+    transition: all 0.7s ease-in-out;
+}
+#letter11:hover {
+    scale: 1.1;
+}
+#wall1 {
+    z-index: 20;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    background-color: #efdecd;
+    clip-path: polygon(0px 0px, 199px 0px, 199px 770px, 0px 1080px);
+}
+#wall2 {
+    z-index: 20;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    background-color: #efdecd;
+    clip-path: polygon(1920px 0px, 1721px 0px, 1721px 770px, 1920px 1080px);
+}
+#wall3 {
+    z-index: 20;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 201px;
+    width: 1518px;
+    height: 768px;
+    background-color: #efdecd;
+}
+#window1 {
+    z-index: 120;
+    position: absolute;
+    top: -5px;
+    left: -0px;
+    width: 400px;
+    height: 610px;
+    transform: rotateY(80deg);
+    transform-origin: 0% 0%;
+}
+#window2 {
+    z-index: 120;
+    position: absolute;
+    top: -5px;
+    right: -0px;
+    width: 400px;
+    height: 610px;
+    transform: rotateY(-80deg);
+    transform-origin: 100% 0%;
+}
